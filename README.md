@@ -1,7 +1,7 @@
 # light-mobile
 
-MobileTest Gamma2.0<br>
-2016-10-21<br>
+MobileTest release1.0<br>
+2016-10-24<br>
 
 1.代码重构，去除所有动态代理，简化代码及调试<br>
 2.TestListenerImpl中增加监听UnreachableBrowserException异常，解决appium server因内存泄露崩溃问题<br>
