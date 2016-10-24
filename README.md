@@ -1,6 +1,6 @@
 # light-mobile
 
-MobileTest release1.0<br>
+MobileTest release1.1<br>
 2016-10-24<br>
 
 1.代码重构，去除所有动态代理，简化代码及调试<br>
