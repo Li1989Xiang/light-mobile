@@ -1,0 +1,28 @@
+{
+	"oEditCode": 
+	{
+		"in": "NATIVE_APP",
+		"bys": 
+		[
+			"xpath:////UIATextField[@value='请输入股票代码/首字母']"
+		]
+	},
+
+	"oTextItem": 
+	{
+		"in": "NATIVE_APP",
+		"bys": 
+		[
+			"xpath:////UIATableCell"
+		]
+	},
+
+	"oBtnCancel": 
+	{
+		"in": "NATIVE_APP",
+		"bys": 
+		[
+			"xpath:////UIAButton[@name ='取消']"
+		]
+	}
+}
