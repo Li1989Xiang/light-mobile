@@ -1,0 +1,567 @@
+[2016-10-24 15:07:15,741][INFO] Runner:39 - [Platform] supported platforms: [android, ios]
+[2016-10-24 15:07:26,286][DEBUG] PageBase:18 - [Initialize class] begin: PageFundFixed
+[2016-10-24 15:07:26,287][DEBUG] Repository:27 - repository has not been parsed - PageFundFixed
+[2016-10-24 15:07:26,304][DEBUG] PageBase:41 - oTextDT: TestElement [by=By.xpath: //a[contains(text(),'基金定投')], in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,304][DEBUG] PageBase:41 - oTextDS: TestElement [by=By.xpath: //a[contains(text(),'基金定赎')], in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,304][DEBUG] PageBase:41 - oTextSQ: TestElement [by=By.xpath: //footer/div/img, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,305][DEBUG] PageBase:41 - oEditCode: TestElement [by=By.id: zqdm, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,305][DEBUG] PageBase:41 - oTextName: TestElement [by=By.xpath: //label[text()='基金名称']/../following-sibling::div[1]/label, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,305][DEBUG] PageBase:41 - oTextPrice: TestElement [by=By.xpath: //label[text()='基金净值']/../following-sibling::div[1]/label, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,305][DEBUG] PageBase:41 - oEditNumber: TestElement [by=By.id: price, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,306][DEBUG] PageBase:41 - oBtnTime: TestElement [by=By.xpath: //label[text()='扣款周期' or text()='赎回周期']/../following-sibling::div[1]/button, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,306][DEBUG] PageBase:41 - oTextMonth: TestElement [by=By.xpath: //div[@class = 'zqSort']/div[contains(text(),'月')], in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,306][DEBUG] PageBase:41 - oTextWeek: TestElement [by=By.xpath: //div[@class = 'zqSort']/div[contains(text(),'周')], in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,306][DEBUG] PageBase:41 - oMenuMonth: TestElement [by=By.xpath: //div[@class='day']/li, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,307][DEBUG] PageBase:41 - oMenuWeek: TestElement [by=By.xpath: //div[@class='week']/li, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,307][DEBUG] PageBase:41 - oBtnDescription: TestElement [by=By.xpath: //label[text()='投资描述']/../following-sibling::div[1]/button, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,308][DEBUG] PageBase:41 - oMenuDescription: TestElement [by=By.xpath: //label[text()='投资描述']/../following-sibling::div[1]/ul[1]/li, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,308][DEBUG] PageBase:41 - oBtnCondition: TestElement [by=By.xpath: //label[text()='期满条件']/../following-sibling::div[1]/button, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,308][DEBUG] PageBase:41 - oMenuCondition: TestElement [by=By.xpath: //label[text()='期满条件']/../following-sibling::div[1]/ul[1]/li, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,308][DEBUG] PageBase:41 - oBtnMark: TestElement [by=By.xpath: //label[text()='巨额标志']/../following-sibling::div[1]/button, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,308][DEBUG] PageBase:41 - oMenuMark: TestElement [by=By.xpath: //label[text()='巨额标志']/../following-sibling::div[1]/ul[1]/li, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,309][DEBUG] PageBase:41 - oEditBeginTime: TestElement [by=By.id: ksrq, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,309][DEBUG] PageBase:41 - oEditEndTime: TestElement [by=By.id: zzrq, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,309][DEBUG] PageBase:41 - oEditQMCS: TestElement [by=By.id: qmcs, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,309][DEBUG] PageBase:41 - oEditQMJE: TestElement [by=By.id: qmje, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,309][DEBUG] PageBase:41 - oBtnSG: TestElement [by=By.xpath: //button[text()='申购'], in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,309][DEBUG] PageBase:41 - oMsgRisk: TestElement [by=By.xpath: //td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?'], in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,310][DEBUG] PageBase:41 - oImgLoad: TestElement [by=By.id: loading, in=WEBVIEW_LAST]
+[2016-10-24 15:07:26,310][DEBUG] PageBase:45 - [Initialize class] end: PageFundFixed
+[2016-10-24 15:07:26,310][DEBUG] PageManager:22 - [Instance page] PageFundFixed
+[2016-10-24 15:07:26,582][DEBUG] PageBase:18 - [Initialize class] begin: ToolBar
+[2016-10-24 15:07:26,584][DEBUG] Repository:27 - repository has not been parsed - ToolBar
+[2016-10-24 15:07:26,586][DEBUG] PageBase:41 - oBtnPTJY: TestElement [by=By.xpath: //UIAButton[@name='普通交易'], in=NATIVE_APP]
+[2016-10-24 15:07:26,586][DEBUG] PageBase:41 - oBtnRZRQ: TestElement [by=By.xpath: //UIAButton[@name = '融资融券'], in=NATIVE_APP]
+[2016-10-24 15:07:26,587][DEBUG] PageBase:41 - oBtnJY: TestElement [by=By.xpath: //UIAButton[@name='交易'], in=NATIVE_APP]
+[2016-10-24 15:07:26,587][DEBUG] PageBase:41 - oBtnBack: TestElement [by=By.xpath: //UIAButton[@name='' and preceding-sibling::*[@name='返回']], in=NATIVE_APP]
+[2016-10-24 15:07:26,587][DEBUG] PageBase:41 - oBtnMsg: TestElement [by=By.xpath: //UIAButton[@name='知道了'], in=NATIVE_APP]
+[2016-10-24 15:07:26,587][DEBUG] PageBase:45 - [Initialize class] end: ToolBar
+[2016-10-24 15:07:26,588][DEBUG] PageManager:22 - [Instance page] ToolBar
+[2016-10-24 15:07:26,595][DEBUG] Repository:27 - repository has not been parsed - PageMainRoot
+[2016-10-24 15:07:26,597][DEBUG] Repository:27 - repository has not been parsed - PageMainJJ
+[2016-10-24 15:07:26,603][DEBUG] Repository:27 - repository has not been parsed - PageMainHK
+[2016-10-24 15:07:26,612][DEBUG] Repository:27 - repository has not been parsed - PageMainRR
+[2016-10-24 15:07:26,859][INFO] ViewNavigator:27 - [Navigate] back: []
+[2016-10-24 15:07:26,860][INFO] ViewNavigator:28 - [Navigate] enter: [ViewNode[交易(ROOT), 1], ViewNode[普通交易(交易), 2], ViewNode[开放式基金(普通交易), 3], ViewNode[基金定投(开放式基金), 4]]
+[2016-10-24 15:07:26,861][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.xpath: //UIAButton[@name='交易'], time: 30
+[2016-10-24 15:07:26,864][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: null
+[2016-10-24 15:07:26,870][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 15:07:27,453][DEBUG] TestElement:35 - [Find element] id: 0 ,by: By.xpath: //UIAButton[@name='交易']
+[2016-10-24 15:07:27,453][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:07:27,454][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.xpath: //UIAButton[@name='知道了'], time: 10
+[2016-10-24 15:07:27,454][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:07:33,609][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:07:39,118][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:07:39,571][DEBUG] TestElement:35 - [Find element] id: 1 ,by: By.xpath: //UIAButton[@name='交易']
+[2016-10-24 15:07:39,909][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:07:40,266][DEBUG] TestElement:35 - [Find element] id: 2 ,by: By.xpath: //UIAButton[@name='普通交易']
+[2016-10-24 15:07:40,538][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 15:07:40,668][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_80
+[2016-10-24 15:07:40,668][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_80
+[2016-10-24 15:07:40,682][DEBUG] TestElement:35 - [Find element] id: 5000 ,by: By.id: pic_openfund
+[2016-10-24 15:07:40,781][DEBUG] PageBase:18 - [Initialize class] begin: PageLogin
+[2016-10-24 15:07:40,781][DEBUG] Repository:27 - repository has not been parsed - PageLogin
+[2016-10-24 15:07:40,783][DEBUG] PageBase:41 - oEditUser: TestElement [by=By.id: khbz, in=WEBVIEW_LAST]
+[2016-10-24 15:07:40,783][DEBUG] PageBase:41 - oEditPwd: TestElement [by=By.id: jymm, in=WEBVIEW_LAST]
+[2016-10-24 15:07:40,783][DEBUG] PageBase:41 - oEditVerCode: TestElement [by=By.id: vertifyCode, in=WEBVIEW_LAST]
+[2016-10-24 15:07:40,783][DEBUG] PageBase:41 - oTextVerCode: TestElement [by=By.id: checkCode, in=WEBVIEW_LAST]
+[2016-10-24 15:07:40,784][DEBUG] PageBase:41 - oBtnLogin: TestElement [by=By.id: login-button, in=WEBVIEW_LAST]
+[2016-10-24 15:07:40,784][DEBUG] PageBase:45 - [Initialize class] end: PageLogin
+[2016-10-24 15:07:40,784][DEBUG] PageManager:22 - [Instance page] PageLogin
+[2016-10-24 15:07:40,784][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: khbz, time: 10
+[2016-10-24 15:07:40,785][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_80
+[2016-10-24 15:07:41,473][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_82
+[2016-10-24 15:07:41,473][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_82
+[2016-10-24 15:07:41,487][DEBUG] TestElement:35 - [Find element] id: 5001 ,by: By.id: khbz
+[2016-10-24 15:07:41,487][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:07:41,488][DEBUG] PageBase:18 - [Initialize class] begin: Keyboard
+[2016-10-24 15:07:41,488][DEBUG] Repository:27 - repository has not been parsed - Keyboard
+[2016-10-24 15:07:41,490][DEBUG] PageBase:41 - oViewKeyboard: TestElement [by=By.AccessibilityId: 1, in=NATIVE_APP]
+[2016-10-24 15:07:41,490][DEBUG] PageBase:41 - oBtnClose: TestElement [by=By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1], in=NATIVE_APP]
+[2016-10-24 15:07:41,490][DEBUG] PageBase:45 - [Initialize class] end: Keyboard
+[2016-10-24 15:07:41,490][DEBUG] PageManager:22 - [Instance page] Keyboard
+[2016-10-24 15:07:41,505][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:41,524][DEBUG] TestElement:35 - [Find element] id: 5002 ,by: By.id: jymm
+[2016-10-24 15:07:41,524][DEBUG] Keyboard:25 - [Keyboard Input] 123321
+[2016-10-24 15:07:41,608][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:41,630][DEBUG] TestElement:35 - [Find element] id: 5003 ,by: By.id: checkCode
+[2016-10-24 15:07:41,647][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:41,666][DEBUG] TestElement:35 - [Find element] id: 5004 ,by: By.id: vertifyCode
+[2016-10-24 15:07:41,666][DEBUG] Keyboard:25 - [Keyboard Input] 6376
+[2016-10-24 15:07:41,748][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:41,768][DEBUG] TestElement:35 - [Find element] id: 5005 ,by: By.id: login-button
+[2016-10-24 15:07:41,803][DEBUG] PageBase:18 - [Initialize class] begin: Alert
+[2016-10-24 15:07:41,804][DEBUG] Repository:27 - repository has not been parsed - Alert
+[2016-10-24 15:07:41,805][DEBUG] PageBase:41 - mControls: TestElement [by=By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0], in=WEBVIEW_LAST]
+[2016-10-24 15:07:41,805][DEBUG] PageBase:41 - oBtnOK: TestElement [by=By.xpath: //div[@class='modal-footer']/button[2], in=WEBVIEW_LAST]
+[2016-10-24 15:07:41,805][DEBUG] PageBase:41 - oBtnCancel: TestElement [by=By.xpath: //div[@class='modal-footer']/button[1], in=WEBVIEW_LAST]
+[2016-10-24 15:07:41,805][DEBUG] PageBase:45 - [Initialize class] end: Alert
+[2016-10-24 15:07:41,806][DEBUG] PageManager:22 - [Instance page] Alert
+[2016-10-24 15:07:41,806][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.xpath: //div[@class='modal-footer']/button[2], time: 1
+[2016-10-24 15:07:41,807][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:42,342][DEBUG] TestElement:35 - [Find element] id: 5006 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:07:42,342][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:07:43,346][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:43,369][DEBUG] TestElement:44 - [Find elements] total: 1, by: By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0]
+[2016-10-24 15:07:43,384][DEBUG] Alert:49 - [Alert] text: 
+当前交易系统处于“柜台测试”状态
+[2016-10-24 15:07:43,384][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:43,403][DEBUG] TestElement:35 - [Find element] id: 5008 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:07:43,447][DEBUG] WaitUtil:63 - [WaitUtil untilGone] begin - By.id: login-button, time: 30
+[2016-10-24 15:07:43,448][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:43,469][DEBUG] TestElement:35 - [Find element] id: 5009 ,by: By.id: login-button
+[2016-10-24 15:07:43,524][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:43,545][DEBUG] TestElement:35 - [Find element] id: 5010 ,by: By.id: login-button
+[2016-10-24 15:07:43,606][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:48,789][DEBUG] WaitUtil:86 - [WaitUtil untilGone] end
+[2016-10-24 15:07:48,789][INFO] Loginer:39 - [Login] PTJY, username: 80316041, password: 123321
+[2016-10-24 15:07:48,789][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:48,809][DEBUG] TestElement:35 - [Find element] id: 5011 ,by: By.xpath: //label[text()='基金定投']
+[2016-10-24 15:07:48,901][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.xpath: //a[contains(text(),'基金定投')], time: 10
+[2016-10-24 15:07:48,902][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 15:07:49,537][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_102
+[2016-10-24 15:07:49,537][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_102
+[2016-10-24 15:07:49,551][DEBUG] TestElement:35 - [Find element] id: 5012 ,by: By.xpath: //a[contains(text(),'基金定投')]
+[2016-10-24 15:07:49,551][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:07:49,551][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.xpath: //a[contains(text(),'基金定投')], time: 10
+[2016-10-24 15:07:49,551][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 15:07:49,571][DEBUG] TestElement:35 - [Find element] id: 5013 ,by: By.xpath: //a[contains(text(),'基金定投')]
+[2016-10-24 15:07:49,571][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:07:49,571][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 15:07:49,591][DEBUG] TestElement:35 - [Find element] id: 5014 ,by: By.xpath: //a[contains(text(),'基金定投')]
+[2016-10-24 15:07:49,619][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: loading, time: 1
+[2016-10-24 15:07:49,619][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 15:07:49,642][DEBUG] TestElement:35 - [Find element] id: 5015 ,by: By.id: loading
+[2016-10-24 15:07:49,643][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:07:50,646][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: loading, time: 1
+[2016-10-24 15:07:50,646][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 15:07:50,670][DEBUG] TestElement:35 - [Find element] id: 5016 ,by: By.id: loading
+[2016-10-24 15:07:50,671][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:07:51,674][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: loading, time: 1
+[2016-10-24 15:07:51,674][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 15:07:56,829][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: false
+[2016-10-24 15:07:58,833][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.xpath: //footer/div/img, time: 3
+[2016-10-24 15:07:58,833][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 15:07:58,854][DEBUG] TestElement:35 - [Find element] id: 5017 ,by: By.xpath: //footer/div/img
+[2016-10-24 15:07:58,854][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:07:58,854][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 15:07:58,872][DEBUG] TestElement:35 - [Find element] id: 5018 ,by: By.xpath: //footer/div/img
+[2016-10-24 15:07:59,053][DEBUG] ExcelReader:49 - open file: file [/Users/csc108/git/light-mobile/ligth-mobile/ios/data/data.xls]
+[2016-10-24 15:07:59,054][DEBUG] ExcelReader:56 - workbook: org.apache.poi.hssf.usermodel.HSSFWorkbook@388526fb
+[2016-10-24 15:07:59,054][DEBUG] ExcelReader:90 - change to sheet: C04基金定投
+[2016-10-24 15:07:59,055][DEBUG] ExcelReader:123 - data: {类型=正例, 操作方式=基金定投, 代码=000001, 名称=华夏成长前收费, 收费方式=前端收费, 金额=1000, 扣款周期=每月, 扣款日=1, 投资描述=幸福养老, 期满条件=日期区间, 巨额标志=, 验证1=基金风险等级与客户等级不匹配，你是否要继续进行交易？, 验证2=操作类别 基金定投申请
+基金代码 000001
+基金名称 华夏成长前收费(前端收费)
+基金账号 80316041
+扣款周期 每月1号
+期满条件 日期区间
+开始日期 {BeginTime}
+终止日期 {EndTime}, 验证3=委托提交成功,流水号：, 备注=} line: 1
+[2016-10-24 15:08:00,059][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: zqdm, time: 10
+[2016-10-24 15:08:00,059][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 15:08:00,076][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 15:08:00,076][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 15:08:00,088][DEBUG] TestElement:35 - [Find element] id: 5019 ,by: By.id: zqdm
+[2016-10-24 15:08:00,088][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:08:00,100][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: zqdm, time: 10
+[2016-10-24 15:08:00,100][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:00,167][DEBUG] TestElement:35 - [Find element] id: 5020 ,by: By.id: zqdm
+[2016-10-24 15:08:00,167][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:08:01,170][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:01,190][DEBUG] TestElement:35 - [Find element] id: 5021 ,by: By.id: zqdm
+[2016-10-24 15:08:01,191][DEBUG] Keyboard:25 - [Keyboard Input] 000001
+[2016-10-24 15:08:02,288][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: WEBVIEW_105
+[2016-10-24 15:08:02,293][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 15:08:02,430][DEBUG] TestElement:35 - [Find element] id: 3 ,by: By.AccessibilityId: 1
+[2016-10-24 15:08:02,655][DEBUG] Keyboard:79 - [Initialize Keyboard] {0=(186, 636), 1=(62, 474), 2=(186, 474), 3=(310, 474), 4=(62, 528), 5=(186, 528), 6=(310, 528), 7=(62, 582), 8=(186, 582), 9=(310, 582)}
+[2016-10-24 15:08:03,097][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:03,529][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:03,960][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:04,396][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:04,835][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:05,307][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:05,307][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.AccessibilityId: 1, time: 1
+[2016-10-24 15:08:05,307][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:08:05,473][DEBUG] TestElement:35 - [Find element] id: 4 ,by: By.AccessibilityId: 1
+[2016-10-24 15:08:05,473][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:05,473][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:08:05,927][DEBUG] TestElement:35 - [Find element] id: 5 ,by: By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1]
+[2016-10-24 15:08:06,241][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 15:08:06,257][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 15:08:06,257][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 15:08:06,271][DEBUG] TestElement:35 - [Find element] id: 5022 ,by: By.xpath: //label[text()='基金名称']/../following-sibling::div[1]/label
+[2016-10-24 15:08:07,292][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:07,311][DEBUG] TestElement:35 - [Find element] id: 5023 ,by: By.id: price
+[2016-10-24 15:08:08,328][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:08,347][DEBUG] TestElement:35 - [Find element] id: 5024 ,by: By.id: price
+[2016-10-24 15:08:08,373][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:08,399][DEBUG] TestElement:35 - [Find element] id: 5025 ,by: By.id: price
+[2016-10-24 15:08:08,399][DEBUG] Keyboard:25 - [Keyboard Input] 1000
+[2016-10-24 15:08:09,920][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:10,363][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:10,812][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:11,254][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:11,254][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.AccessibilityId: 1, time: 1
+[2016-10-24 15:08:11,254][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: WEBVIEW_105
+[2016-10-24 15:08:11,258][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 15:08:11,411][DEBUG] TestElement:35 - [Find element] id: 6 ,by: By.AccessibilityId: 1
+[2016-10-24 15:08:11,411][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:11,411][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:08:11,797][DEBUG] TestElement:35 - [Find element] id: 7 ,by: By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1]
+[2016-10-24 15:08:15,091][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 15:08:15,117][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 15:08:15,117][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 15:08:15,131][DEBUG] TestElement:35 - [Find element] id: 5026 ,by: By.xpath: //label[text()='扣款周期' or text()='赎回周期']/../following-sibling::div[1]/button
+[2016-10-24 15:08:16,165][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:16,193][DEBUG] TestElement:35 - [Find element] id: 5027 ,by: By.xpath: //div[@class = 'zqSort']/div[contains(text(),'月')]
+[2016-10-24 15:08:17,232][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:17,255][DEBUG] TestElement:44 - [Find elements] total: 28, by: By.xpath: //div[@class='day']/li
+[2016-10-24 15:08:17,295][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: ksrq, time: 1
+[2016-10-24 15:08:17,295][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:17,316][DEBUG] TestElement:35 - [Find element] id: 5056 ,by: By.id: ksrq
+[2016-10-24 15:08:17,316][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:17,317][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:17,336][DEBUG] TestElement:35 - [Find element] id: 5057 ,by: By.id: ksrq
+[2016-10-24 15:08:17,347][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: ksrq, time: 1
+[2016-10-24 15:08:17,348][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:17,370][DEBUG] TestElement:35 - [Find element] id: 5058 ,by: By.id: ksrq
+[2016-10-24 15:08:17,370][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:17,370][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:17,390][DEBUG] TestElement:35 - [Find element] id: 5059 ,by: By.id: zzrq
+[2016-10-24 15:08:18,412][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:18,432][DEBUG] TestElement:35 - [Find element] id: 5060 ,by: By.xpath: //button[text()='申购']
+[2016-10-24 15:08:18,467][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.xpath: //td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?'], time: 1
+[2016-10-24 15:08:18,468][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:18,500][DEBUG] TestElement:35 - [Find element] id: 5061 ,by: By.xpath: //td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?']
+[2016-10-24 15:08:18,501][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:18,501][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:18,518][DEBUG] TestElement:35 - [Find element] id: 5062 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:08:19,560][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:19,581][DEBUG] TestElement:44 - [Find elements] total: 16, by: By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0]
+[2016-10-24 15:08:19,823][DEBUG] Alert:49 - [Alert] text: 
+操作类别 基金定投申请
+基金代码 000001
+基金名称 华夏成长前收费(前端收费)
+基金账号 80316041
+扣款周期 每月1号
+期满条件 日期区间
+开始日期 20161024
+终止日期 20461024
+[2016-10-24 15:08:19,823][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:19,842][DEBUG] TestElement:35 - [Find element] id: 5079 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:08:20,880][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:20,903][DEBUG] TestElement:44 - [Find elements] total: 1, by: By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0]
+[2016-10-24 15:08:20,918][DEBUG] Alert:49 - [Alert] text: 
+委托提交成功,流水号：26
+[2016-10-24 15:08:20,918][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:20,936][DEBUG] TestElement:35 - [Find element] id: 5081 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:08:20,967][DEBUG] ExcelReader:123 - data: {类型=正例, 操作方式=基金定投, 代码=110001, 名称=易方达平稳, 收费方式=前端收费, 金额=1000, 扣款周期=每周, 扣款日=星期一, 投资描述=幸福养老, 期满条件=日期区间, 巨额标志=, 验证1=基金风险等级与客户等级不匹配，你是否要继续进行交易？, 验证2=操作类别 基金定投申请
+基金代码 110001
+基金名称 易方达平稳(前端收费)
+基金账号 80316041
+扣款周期 每周星期一
+期满条件 日期区间
+开始日期 {BeginTime}
+终止日期 {EndTime}, 验证3=委托提交成功,流水号：, 备注=} line: 2
+[2016-10-24 15:08:21,972][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: zqdm, time: 10
+[2016-10-24 15:08:21,972][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:21,990][DEBUG] TestElement:35 - [Find element] id: 5082 ,by: By.id: zqdm
+[2016-10-24 15:08:21,990][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:08:22,000][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: zqdm, time: 10
+[2016-10-24 15:08:22,001][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:22,539][DEBUG] TestElement:35 - [Find element] id: 5083 ,by: By.id: zqdm
+[2016-10-24 15:08:22,539][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:08:23,543][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:23,565][DEBUG] TestElement:35 - [Find element] id: 5084 ,by: By.id: zqdm
+[2016-10-24 15:08:23,567][DEBUG] Keyboard:25 - [Keyboard Input] 110001
+[2016-10-24 15:08:25,091][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:25,528][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:25,958][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:26,400][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:26,832][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:27,263][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:27,264][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.AccessibilityId: 1, time: 1
+[2016-10-24 15:08:27,264][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: WEBVIEW_105
+[2016-10-24 15:08:27,268][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 15:08:27,399][DEBUG] TestElement:35 - [Find element] id: 8 ,by: By.AccessibilityId: 1
+[2016-10-24 15:08:27,399][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:27,399][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:08:27,771][DEBUG] TestElement:35 - [Find element] id: 9 ,by: By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1]
+[2016-10-24 15:08:28,046][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 15:08:28,062][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 15:08:28,062][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 15:08:28,077][DEBUG] TestElement:35 - [Find element] id: 5085 ,by: By.xpath: //label[text()='基金名称']/../following-sibling::div[1]/label
+[2016-10-24 15:08:29,096][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:29,116][DEBUG] TestElement:35 - [Find element] id: 5086 ,by: By.id: price
+[2016-10-24 15:08:30,137][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:30,157][DEBUG] TestElement:35 - [Find element] id: 5087 ,by: By.id: price
+[2016-10-24 15:08:30,185][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:30,220][DEBUG] TestElement:35 - [Find element] id: 5088 ,by: By.id: price
+[2016-10-24 15:08:30,220][DEBUG] Keyboard:25 - [Keyboard Input] 1000
+[2016-10-24 15:08:31,745][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:32,180][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:32,608][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:33,040][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:33,040][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.AccessibilityId: 1, time: 1
+[2016-10-24 15:08:33,040][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: WEBVIEW_105
+[2016-10-24 15:08:33,045][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 15:08:33,171][DEBUG] TestElement:35 - [Find element] id: 10 ,by: By.AccessibilityId: 1
+[2016-10-24 15:08:33,171][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:33,171][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:08:33,535][DEBUG] TestElement:35 - [Find element] id: 11 ,by: By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1]
+[2016-10-24 15:08:37,014][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 15:08:37,036][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 15:08:37,036][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 15:08:37,053][DEBUG] TestElement:35 - [Find element] id: 5089 ,by: By.xpath: //label[text()='扣款周期' or text()='赎回周期']/../following-sibling::div[1]/button
+[2016-10-24 15:08:37,088][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:37,115][DEBUG] TestElement:35 - [Find element] id: 5090 ,by: By.xpath: //div[@class = 'zqSort']/div[contains(text(),'周')]
+[2016-10-24 15:08:38,151][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:38,169][DEBUG] TestElement:44 - [Find elements] total: 5, by: By.xpath: //div[@class='week']/li
+[2016-10-24 15:08:38,211][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: ksrq, time: 1
+[2016-10-24 15:08:38,211][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:38,231][DEBUG] TestElement:35 - [Find element] id: 5096 ,by: By.id: ksrq
+[2016-10-24 15:08:38,231][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:38,231][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:38,249][DEBUG] TestElement:35 - [Find element] id: 5097 ,by: By.id: ksrq
+[2016-10-24 15:08:38,259][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: ksrq, time: 1
+[2016-10-24 15:08:38,260][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:38,277][DEBUG] TestElement:35 - [Find element] id: 5098 ,by: By.id: ksrq
+[2016-10-24 15:08:38,278][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:38,278][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:38,295][DEBUG] TestElement:35 - [Find element] id: 5099 ,by: By.id: zzrq
+[2016-10-24 15:08:39,311][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:39,330][DEBUG] TestElement:35 - [Find element] id: 5100 ,by: By.xpath: //button[text()='申购']
+[2016-10-24 15:08:39,365][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.xpath: //td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?'], time: 1
+[2016-10-24 15:08:39,365][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:39,396][DEBUG] TestElement:35 - [Find element] id: 5101 ,by: By.xpath: //td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?']
+[2016-10-24 15:08:39,397][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:39,397][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:39,416][DEBUG] TestElement:35 - [Find element] id: 5102 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:08:40,454][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:40,476][DEBUG] TestElement:44 - [Find elements] total: 16, by: By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0]
+[2016-10-24 15:08:40,707][DEBUG] Alert:49 - [Alert] text: 
+操作类别 基金定投申请
+基金代码 110001
+基金名称 易方达平稳(前端收费)
+基金账号 80316041
+扣款周期 每周星期一
+期满条件 日期区间
+开始日期 20161024
+终止日期 20461024
+[2016-10-24 15:08:40,707][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:40,724][DEBUG] TestElement:35 - [Find element] id: 5119 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:08:41,761][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:41,781][DEBUG] TestElement:44 - [Find elements] total: 1, by: By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0]
+[2016-10-24 15:08:41,796][DEBUG] Alert:49 - [Alert] text: 
+委托提交成功,流水号：27
+[2016-10-24 15:08:41,796][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:41,816][DEBUG] TestElement:35 - [Find element] id: 5121 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:08:41,840][DEBUG] ExcelReader:123 - data: {类型=正例, 操作方式=基金定投, 代码=519001, 名称=银华核心价值优选, 收费方式=前端收费, 金额=1000, 扣款周期=每月, 扣款日=26, 投资描述=幸福养老, 期满条件=日期区间, 巨额标志=, 验证1=基金风险等级与客户等级不匹配，你是否要继续进行交易？, 验证2=操作类别 基金定投申请
+基金代码 519001
+基金名称 银华核心价值优选(前端收费)
+基金账号 80316041
+扣款周期 每月26号
+期满条件 日期区间
+开始日期 {BeginTime}
+终止日期 {EndTime}, 验证3=委托提交成功,流水号：, 备注=} line: 3
+[2016-10-24 15:08:42,845][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: zqdm, time: 10
+[2016-10-24 15:08:42,845][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:42,863][DEBUG] TestElement:35 - [Find element] id: 5122 ,by: By.id: zqdm
+[2016-10-24 15:08:42,864][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:08:42,874][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: zqdm, time: 10
+[2016-10-24 15:08:42,874][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:42,939][DEBUG] TestElement:35 - [Find element] id: 5123 ,by: By.id: zqdm
+[2016-10-24 15:08:42,939][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 15:08:43,942][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:43,960][DEBUG] TestElement:35 - [Find element] id: 5124 ,by: By.id: zqdm
+[2016-10-24 15:08:43,960][DEBUG] Keyboard:25 - [Keyboard Input] 519001
+[2016-10-24 15:08:45,495][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 528
+[2016-10-24 15:08:45,927][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:46,368][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 310, 582
+[2016-10-24 15:08:46,809][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:47,241][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:47,674][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:47,675][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.AccessibilityId: 1, time: 1
+[2016-10-24 15:08:47,675][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: WEBVIEW_105
+[2016-10-24 15:08:47,679][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 15:08:47,811][DEBUG] TestElement:35 - [Find element] id: 12 ,by: By.AccessibilityId: 1
+[2016-10-24 15:08:47,811][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:47,812][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:08:48,185][DEBUG] TestElement:35 - [Find element] id: 13 ,by: By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1]
+[2016-10-24 15:08:48,466][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 15:08:48,481][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 15:08:48,482][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 15:08:48,496][DEBUG] TestElement:35 - [Find element] id: 5125 ,by: By.xpath: //label[text()='基金名称']/../following-sibling::div[1]/label
+[2016-10-24 15:08:49,516][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:49,534][DEBUG] TestElement:35 - [Find element] id: 5126 ,by: By.id: price
+[2016-10-24 15:08:50,550][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:50,569][DEBUG] TestElement:35 - [Find element] id: 5127 ,by: By.id: price
+[2016-10-24 15:08:50,596][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:50,620][DEBUG] TestElement:35 - [Find element] id: 5128 ,by: By.id: price
+[2016-10-24 15:08:50,620][DEBUG] Keyboard:25 - [Keyboard Input] 1000
+[2016-10-24 15:08:52,135][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 15:08:52,572][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:53,007][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:53,437][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 15:08:53,437][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.AccessibilityId: 1, time: 1
+[2016-10-24 15:08:53,437][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: WEBVIEW_105
+[2016-10-24 15:08:53,441][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 15:08:53,572][DEBUG] TestElement:35 - [Find element] id: 14 ,by: By.AccessibilityId: 1
+[2016-10-24 15:08:53,572][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:53,572][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 15:08:53,937][DEBUG] TestElement:35 - [Find element] id: 15 ,by: By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1]
+[2016-10-24 15:08:57,225][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 15:08:57,241][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 15:08:57,241][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 15:08:57,255][DEBUG] TestElement:35 - [Find element] id: 5129 ,by: By.xpath: //label[text()='扣款周期' or text()='赎回周期']/../following-sibling::div[1]/button
+[2016-10-24 15:08:58,283][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:58,303][DEBUG] TestElement:35 - [Find element] id: 5130 ,by: By.xpath: //div[@class = 'zqSort']/div[contains(text(),'月')]
+[2016-10-24 15:08:59,334][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:59,358][DEBUG] TestElement:44 - [Find elements] total: 28, by: By.xpath: //div[@class='day']/li
+[2016-10-24 15:08:59,812][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: ksrq, time: 1
+[2016-10-24 15:08:59,813][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:59,841][DEBUG] TestElement:35 - [Find element] id: 5159 ,by: By.id: ksrq
+[2016-10-24 15:08:59,841][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:59,841][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:59,864][DEBUG] TestElement:35 - [Find element] id: 5160 ,by: By.id: ksrq
+[2016-10-24 15:08:59,877][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.id: ksrq, time: 1
+[2016-10-24 15:08:59,877][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:59,896][DEBUG] TestElement:35 - [Find element] id: 5161 ,by: By.id: ksrq
+[2016-10-24 15:08:59,896][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:08:59,896][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:08:59,925][DEBUG] TestElement:35 - [Find element] id: 5162 ,by: By.id: zzrq
+[2016-10-24 15:09:00,940][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:00,961][DEBUG] TestElement:35 - [Find element] id: 5163 ,by: By.xpath: //button[text()='申购']
+[2016-10-24 15:09:00,995][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.xpath: //td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?'], time: 1
+[2016-10-24 15:09:00,996][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:01,027][DEBUG] TestElement:35 - [Find element] id: 5164 ,by: By.xpath: //td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?']
+[2016-10-24 15:09:01,028][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 15:09:01,028][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:01,046][DEBUG] TestElement:35 - [Find element] id: 5165 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:09:02,085][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:02,108][DEBUG] TestElement:44 - [Find elements] total: 16, by: By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0]
+[2016-10-24 15:09:02,468][DEBUG] Alert:49 - [Alert] text: 
+操作类别 基金定投申请
+基金代码 519001
+基金名称 银华核心价值优选(前端收费)
+基金账号 80316041
+扣款周期 每月26号
+期满条件 日期区间
+开始日期 20161024
+终止日期 20461024
+[2016-10-24 15:09:02,468][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:02,487][DEBUG] TestElement:35 - [Find element] id: 5182 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:09:03,523][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:03,546][DEBUG] TestElement:44 - [Find elements] total: 1, by: By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0]
+[2016-10-24 15:09:03,564][DEBUG] Alert:49 - [Alert] text: 
+委托提交成功,流水号：28
+[2016-10-24 15:09:03,564][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:03,584][DEBUG] TestElement:35 - [Find element] id: 5184 ,by: By.xpath: //div[@class='modal-footer']/button[2]
+[2016-10-24 15:09:03,611][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.xpath: //a[contains(text(),'基金定赎')], time: 10
+[2016-10-24 15:09:03,612][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:09,288][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 15:09:14,455][DEBUG] TestListenerImpl:212 - Timed out after 10 seconds waiting for visibilty of element locatoed by By.xpath: //a[contains(text(),'基金定赎')]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'bogon', ip: '10.101.238.65', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/csc108/Desktop/lixiang/app/1019/zhongxinjiantou_iphone_1.0.3.201610181946.66097.app, networkConnectionEnabled=false, noReset=true, warnings={}, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, desired={app=/Users/csc108/Desktop/lixiang/app/1019/zhongxinjiantou_iphone_1.0.3.201610181946.66097.app, noReset=true, newCommandTimeout=300, platformVersion=8.4, platformName=iOS, deviceName=iPhone 6}, newCommandTimeout=300, platformVersion=8.4, webStorageEnabled=false, locationContextEnabled=false, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: babd9602-6937-452e-b7df-1fb13d3e57f1
+org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for visibilty of element locatoed by By.xpath: //a[contains(text(),'基金定赎')]
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'bogon', ip: '10.101.238.65', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/csc108/Desktop/lixiang/app/1019/zhongxinjiantou_iphone_1.0.3.201610181946.66097.app, networkConnectionEnabled=false, noReset=true, warnings={}, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, desired={app=/Users/csc108/Desktop/lixiang/app/1019/zhongxinjiantou_iphone_1.0.3.201610181946.66097.app, noReset=true, newCommandTimeout=300, platformVersion=8.4, platformName=iOS, deviceName=iPhone 6}, newCommandTimeout=300, platformVersion=8.4, webStorageEnabled=false, locationContextEnabled=false, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: babd9602-6937-452e-b7df-1fb13d3e57f1
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at up.light.wait.WaitUtil.waitFor(WaitUtil.java:45)
+	at mobile.page.PageFundFixed.doChooseDTorDS(PageFundFixed.java:69)
+	at mobile.test.stage02.TestC05FundDS.before1(TestC05FundDS.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.MethodInvocationHelper$2.runConfigurationMethod(MethodInvocationHelper.java:293)
+	at mobile.controller.Controller.run(Controller.java:19)
+	at org.testng.internal.MethodInvocationHelper.invokeConfigurable(MethodInvocationHelper.java:305)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:506)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at up.light.Runner.run(Runner.java:27)
+	at mobile.App.main(App.java:15)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.15 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'bogon', ip: '10.101.238.65', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{app=/Users/csc108/Desktop/lixiang/app/1019/zhongxinjiantou_iphone_1.0.3.201610181946.66097.app, networkConnectionEnabled=false, noReset=true, warnings={}, databaseEnabled=false, deviceName=iPhone 6, platform=MAC, desired={app=/Users/csc108/Desktop/lixiang/app/1019/zhongxinjiantou_iphone_1.0.3.201610181946.66097.app, noReset=true, newCommandTimeout=300, platformVersion=8.4, platformName=iOS, deviceName=iPhone 6}, newCommandTimeout=300, platformVersion=8.4, webStorageEnabled=false, locationContextEnabled=false, browserName=iOS, takesScreenshot=true, javascriptEnabled=true, platformName=iOS}]
+Session ID: babd9602-6937-452e-b7df-1fb13d3e57f1
+*** Element info: {Using=xpath, value=//a[contains(text(),'基金定赎')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElementByXPath(IOSDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.findElement(IOSDriver.java:1)
+	at up.light.pagefactory.TestElement.e(TestElement.java:33)
+	at up.light.wait.WaitUtil$2.apply(WaitUtil.java:48)
+	at up.light.wait.WaitUtil$2.apply(WaitUtil.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	... 29 more
+[2016-10-24 15:09:14,458][DEBUG] TestBase:15 - [Recovery] current page: mobile.page.PageFundFixed
+[2016-10-24 15:09:14,507][INFO] AbstractPage:67 - [Page reset] refresh: file:///Users/csc108/Library/Developer/CoreSimulator/Devices/29E37F06-893A-4CFC-85B9-D2E55E2171AA/data/Containers/Bundle/Application/A176835C-ED17-439F-A32C-6B7314A554BF/zhongxinjiantou_iphone_1.0.3.201610181946.66097.app/kds519/view/kfsjj/jjdts/dtssq.html
+[2016-10-24 15:09:15,011][DEBUG] ExcelReader:56 - workbook: org.apache.poi.hssf.usermodel.HSSFWorkbook@388526fb
+[2016-10-24 15:09:15,012][DEBUG] ExcelReader:90 - change to sheet: C05基金定赎
+[2016-10-24 15:09:15,012][DEBUG] ExcelReader:123 - data: {类型=正例, 操作方式=基金定赎, 代码=110009, 名称=易基价值精选, 收费方式=前端收费, 金额=1000, 扣款周期=每周, 扣款日=星期一, 巨额标志=顺延, 验证1=, 验证2=操作类别 基金定赎申请
+基金代码 110009
+基金名称 易基价值精选(前端收费)
+基金账号 80316041
+赎回周期 每周星期一
+周期赎回份额 1000
+开始日期 {BeginTime}
+终止日期 {EndTime}
+巨额标志 顺延, 验证3=委托提交成功,流水号：, 备注=} line: 2
+[2016-10-24 15:09:15,012][DEBUG] ExcelReader:123 - data: {类型=正例, 操作方式=基金定赎, 代码=519003, 名称=海富通收益增长证, 收费方式=前端收费, 金额=1000, 扣款周期=每月, 扣款日=26, 巨额标志=取消, 验证1=, 验证2=操作类别 基金定赎申请
+基金代码 519003
+基金名称 海富通收益增长证(前端收费)
+基金账号 80316041
+赎回周期 每月26号
+周期赎回份额 1000
+开始日期 {BeginTime}
+终止日期 {EndTime}
+巨额标志 取消, 验证3=委托提交成功,流水号：, 备注=} line: 3
+[2016-10-24 15:09:15,044][DEBUG] ExcelReader$ExcelReaderCloser:228 - close workbook: org.apache.poi.hssf.usermodel.HSSFWorkbook@388526fb
+[2016-10-24 15:09:15,076][DEBUG] ExcelWriter$ExcelWriterCloser:230 - report.xls closed
+[2016-10-24 15:09:17,420][DEBUG] DriverFactory:28 - driver quit

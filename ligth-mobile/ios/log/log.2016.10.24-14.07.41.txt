@@ -1,0 +1,531 @@
+[2016-10-24 14:07:41,250][INFO] Runner:39 - [Platform] supported platforms: [android, ios]
+[2016-10-24 14:08:01,387][DEBUG] PageBase:18 - [Initialize class] begin: PageFundFixed
+[2016-10-24 14:08:01,409][DEBUG] Repository:27 - repository has not been parsed - PageFundFixed
+[2016-10-24 14:08:01,455][DEBUG] PageBase:41 - oTextDT: TestElement [by=By.xpath: //a[contains(text(),'基金定投')], in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,455][DEBUG] PageBase:41 - oTextDS: TestElement [by=By.xpath: //a[contains(text(),'基金定赎')], in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,455][DEBUG] PageBase:41 - oTextSQ: TestElement [by=By.xpath: //footer/div/img, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,456][DEBUG] PageBase:41 - oEditCode: TestElement [by=By.id: zqdm, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,456][DEBUG] PageBase:41 - oTextName: TestElement [by=By.xpath: //label[text()='基金名称']/../following-sibling::div[1]/label, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,456][DEBUG] PageBase:41 - oTextPrice: TestElement [by=By.xpath: //label[text()='基金净值']/../following-sibling::div[1]/label, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,457][DEBUG] PageBase:41 - oEditNumber: TestElement [by=By.id: price, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,457][DEBUG] PageBase:41 - oBtnTime: TestElement [by=By.xpath: //label[text()='扣款周期' or text()='赎回周期']/../following-sibling::div[1]/button, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,457][DEBUG] PageBase:41 - oTextMonth: TestElement [by=By.xpath: //div[@class = 'zqSort']/div[contains(text(),'月')], in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,457][DEBUG] PageBase:41 - oTextWeek: TestElement [by=By.xpath: //div[@class = 'zqSort']/div[contains(text(),'周')], in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,458][DEBUG] PageBase:41 - oMenuMonth: TestElement [by=By.xpath: //div[@class='day']/li, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,458][DEBUG] PageBase:41 - oMenuWeek: TestElement [by=By.xpath: //div[@class='week']/li, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,458][DEBUG] PageBase:41 - oBtnDescription: TestElement [by=By.xpath: //label[text()='投资描述']/../following-sibling::div[1]/button, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,460][DEBUG] PageBase:41 - oMenuDescription: TestElement [by=By.xpath: //label[text()='投资描述']/../following-sibling::div[1]/ul[1]/li, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,460][DEBUG] PageBase:41 - oBtnCondition: TestElement [by=By.xpath: //label[text()='期满条件']/../following-sibling::div[1]/button, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,460][DEBUG] PageBase:41 - oMenuCondition: TestElement [by=By.xpath: //label[text()='期满条件']/../following-sibling::div[1]/ul[1]/li, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,461][DEBUG] PageBase:41 - oBtnMark: TestElement [by=By.xpath: //label[text()='巨额标志']/../following-sibling::div[1]/button, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,461][DEBUG] PageBase:41 - oMenuMark: TestElement [by=By.xpath: //label[text()='巨额标志']/../following-sibling::div[1]/ul[1]/li, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,461][DEBUG] PageBase:41 - oEditBeginTime: TestElement [by=By.id: ksrq, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,461][DEBUG] PageBase:41 - oEditEndTime: TestElement [by=By.id: zzrq, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,462][DEBUG] PageBase:41 - oEditQMCS: TestElement [by=By.id: qmcs, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,462][DEBUG] PageBase:41 - oEditQMJE: TestElement [by=By.id: qmje, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,462][DEBUG] PageBase:41 - oBtnSG: TestElement [by=By.xpath: //button[text()='申购'], in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,462][DEBUG] PageBase:41 - oMsgRisk: TestElement [by=By.xpath: //td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?'], in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,463][DEBUG] PageBase:41 - oImgLoad: TestElement [by=By.id: loading, in=WEBVIEW_LAST]
+[2016-10-24 14:08:01,463][DEBUG] PageBase:45 - [Initialize class] end: PageFundFixed
+[2016-10-24 14:08:01,463][DEBUG] PageManager:22 - [Instance page] PageFundFixed
+[2016-10-24 14:08:01,908][DEBUG] PageBase:18 - [Initialize class] begin: ToolBar
+[2016-10-24 14:08:01,908][DEBUG] Repository:27 - repository has not been parsed - ToolBar
+[2016-10-24 14:08:01,910][DEBUG] PageBase:41 - oBtnPTJY: TestElement [by=By.xpath: //UIAButton[@name='普通交易'], in=NATIVE_APP]
+[2016-10-24 14:08:01,910][DEBUG] PageBase:41 - oBtnRZRQ: TestElement [by=By.xpath: //UIAButton[@name = '融资融券'], in=NATIVE_APP]
+[2016-10-24 14:08:01,910][DEBUG] PageBase:41 - oBtnJY: TestElement [by=By.xpath: //UIAButton[@name='交易'], in=NATIVE_APP]
+[2016-10-24 14:08:01,910][DEBUG] PageBase:41 - oBtnBack: TestElement [by=By.xpath: //UIAButton[@name='' and preceding-sibling::*[@name='返回']], in=NATIVE_APP]
+[2016-10-24 14:08:01,911][DEBUG] PageBase:41 - oBtnMsg: TestElement [by=By.xpath: //UIAButton[@name='知道了'], in=NATIVE_APP]
+[2016-10-24 14:08:01,911][DEBUG] PageBase:45 - [Initialize class] end: ToolBar
+[2016-10-24 14:08:01,911][DEBUG] PageManager:22 - [Instance page] ToolBar
+[2016-10-24 14:08:01,919][DEBUG] Repository:27 - repository has not been parsed - PageMainRoot
+[2016-10-24 14:08:01,933][DEBUG] Repository:27 - repository has not been parsed - PageMainJJ
+[2016-10-24 14:08:01,938][DEBUG] Repository:27 - repository has not been parsed - PageMainHK
+[2016-10-24 14:08:01,943][DEBUG] Repository:27 - repository has not been parsed - PageMainRR
+[2016-10-24 14:08:02,233][INFO] ViewNavigator:27 - [Navigate] back: []
+[2016-10-24 14:08:02,234][INFO] ViewNavigator:28 - [Navigate] enter: [ViewNode[交易(ROOT), 1], ViewNode[普通交易(交易), 2], ViewNode[开放式基金(普通交易), 3], ViewNode[基金定投(开放式基金), 4]]
+[2016-10-24 14:08:02,235][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.xpath: //UIAButton[@name='交易'], time: 30
+[2016-10-24 14:08:02,269][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: null
+[2016-10-24 14:08:02,275][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 14:08:02,735][DEBUG] TestElement:35 - [Find element] id: 0 ,by: By.xpath: //UIAButton[@name='交易']
+[2016-10-24 14:08:02,735][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 14:08:02,735][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.xpath: //UIAButton[@name='知道了'], time: 10
+[2016-10-24 14:08:02,735][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 14:08:08,714][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 14:08:14,177][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 14:08:14,636][DEBUG] TestElement:35 - [Find element] id: 1 ,by: By.xpath: //UIAButton[@name='交易']
+[2016-10-24 14:08:14,961][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 14:08:15,328][DEBUG] TestElement:35 - [Find element] id: 2 ,by: By.xpath: //UIAButton[@name='普通交易']
+[2016-10-24 14:08:15,601][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 14:08:15,752][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_80
+[2016-10-24 14:08:15,752][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_80
+[2016-10-24 14:08:15,765][DEBUG] TestElement:35 - [Find element] id: 5000 ,by: By.id: pic_openfund
+[2016-10-24 14:08:15,874][DEBUG] PageBase:18 - [Initialize class] begin: PageLogin
+[2016-10-24 14:08:15,875][DEBUG] Repository:27 - repository has not been parsed - PageLogin
+[2016-10-24 14:08:15,877][DEBUG] PageBase:41 - oEditUser: TestElement [by=By.id: khbz, in=WEBVIEW_LAST]
+[2016-10-24 14:08:15,877][DEBUG] PageBase:41 - oEditPwd: TestElement [by=By.id: jymm, in=WEBVIEW_LAST]
+[2016-10-24 14:08:15,877][DEBUG] PageBase:41 - oEditVerCode: TestElement [by=By.id: vertifyCode, in=WEBVIEW_LAST]
+[2016-10-24 14:08:15,878][DEBUG] PageBase:41 - oTextVerCode: TestElement [by=By.id: checkCode, in=WEBVIEW_LAST]
+[2016-10-24 14:08:15,878][DEBUG] PageBase:41 - oBtnLogin: TestElement [by=By.id: login-button, in=WEBVIEW_LAST]
+[2016-10-24 14:08:15,878][DEBUG] PageBase:45 - [Initialize class] end: PageLogin
+[2016-10-24 14:08:15,878][DEBUG] PageManager:22 - [Instance page] PageLogin
+[2016-10-24 14:08:15,878][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: khbz, time: 10
+[2016-10-24 14:08:15,879][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_80
+[2016-10-24 14:08:16,564][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_82
+[2016-10-24 14:08:16,564][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_82
+[2016-10-24 14:08:16,576][DEBUG] TestElement:35 - [Find element] id: 5001 ,by: By.id: khbz
+[2016-10-24 14:08:16,577][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 14:08:16,577][DEBUG] PageBase:18 - [Initialize class] begin: Keyboard
+[2016-10-24 14:08:16,577][DEBUG] Repository:27 - repository has not been parsed - Keyboard
+[2016-10-24 14:08:16,579][DEBUG] PageBase:41 - oViewKeyboard: TestElement [by=By.AccessibilityId: 1, in=NATIVE_APP]
+[2016-10-24 14:08:16,579][DEBUG] PageBase:41 - oBtnClose: TestElement [by=By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1], in=NATIVE_APP]
+[2016-10-24 14:08:16,580][DEBUG] PageBase:45 - [Initialize class] end: Keyboard
+[2016-10-24 14:08:16,580][DEBUG] PageManager:22 - [Instance page] Keyboard
+[2016-10-24 14:08:16,592][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:16,617][DEBUG] TestElement:35 - [Find element] id: 5002 ,by: By.id: jymm
+[2016-10-24 14:08:16,617][DEBUG] Keyboard:25 - [Keyboard Input] 123321
+[2016-10-24 14:08:16,700][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:16,720][DEBUG] TestElement:35 - [Find element] id: 5003 ,by: By.id: checkCode
+[2016-10-24 14:08:16,735][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:16,754][DEBUG] TestElement:35 - [Find element] id: 5004 ,by: By.id: vertifyCode
+[2016-10-24 14:08:16,754][DEBUG] Keyboard:25 - [Keyboard Input] 4193
+[2016-10-24 14:08:16,833][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:16,853][DEBUG] TestElement:35 - [Find element] id: 5005 ,by: By.id: login-button
+[2016-10-24 14:08:16,888][DEBUG] PageBase:18 - [Initialize class] begin: Alert
+[2016-10-24 14:08:16,888][DEBUG] Repository:27 - repository has not been parsed - Alert
+[2016-10-24 14:08:16,889][DEBUG] PageBase:41 - mControls: TestElement [by=By.xpath: //div[@class='modal-body']//td[count(descendant::*)=0], in=WEBVIEW_LAST]
+[2016-10-24 14:08:16,890][DEBUG] PageBase:41 - oBtnOK: TestElement [by=By.xpath: //div[@class='modal-footer']/button[2], in=WEBVIEW_LAST]
+[2016-10-24 14:08:16,890][DEBUG] PageBase:41 - oBtnCancel: TestElement [by=By.xpath: //div[@class='modal-footer']/button[1], in=WEBVIEW_LAST]
+[2016-10-24 14:08:16,890][DEBUG] PageBase:45 - [Initialize class] end: Alert
+[2016-10-24 14:08:16,890][DEBUG] PageManager:22 - [Instance page] Alert
+[2016-10-24 14:08:16,891][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.xpath: //div[@class='modal-footer']/button[2], time: 1
+[2016-10-24 14:08:16,958][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:22,112][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: false
+[2016-10-24 14:08:22,113][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.xpath: //div[@class='modal-footer']/button[1], time: 1
+[2016-10-24 14:08:22,113][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,264][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: false
+[2016-10-24 14:08:27,264][DEBUG] WaitUtil:63 - [WaitUtil untilGone] begin - By.id: login-button, time: 30
+[2016-10-24 14:08:27,303][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,322][DEBUG] TestElement:35 - [Find element] id: 5006 ,by: By.id: login-button
+[2016-10-24 14:08:27,372][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,391][DEBUG] TestElement:35 - [Find element] id: 5007 ,by: By.id: login-button
+[2016-10-24 14:08:27,442][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,464][DEBUG] TestElement:35 - [Find element] id: 5008 ,by: By.id: login-button
+[2016-10-24 14:08:27,512][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,534][DEBUG] TestElement:35 - [Find element] id: 5009 ,by: By.id: login-button
+[2016-10-24 14:08:27,583][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,604][DEBUG] TestElement:35 - [Find element] id: 5010 ,by: By.id: login-button
+[2016-10-24 14:08:27,652][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,671][DEBUG] TestElement:35 - [Find element] id: 5011 ,by: By.id: login-button
+[2016-10-24 14:08:27,718][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,738][DEBUG] TestElement:35 - [Find element] id: 5012 ,by: By.id: login-button
+[2016-10-24 14:08:27,783][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,805][DEBUG] TestElement:35 - [Find element] id: 5013 ,by: By.id: login-button
+[2016-10-24 14:08:27,854][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,877][DEBUG] TestElement:35 - [Find element] id: 5014 ,by: By.id: login-button
+[2016-10-24 14:08:27,922][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:27,941][DEBUG] TestElement:35 - [Find element] id: 5015 ,by: By.id: login-button
+[2016-10-24 14:08:27,991][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,010][DEBUG] TestElement:35 - [Find element] id: 5016 ,by: By.id: login-button
+[2016-10-24 14:08:28,060][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,080][DEBUG] TestElement:35 - [Find element] id: 5017 ,by: By.id: login-button
+[2016-10-24 14:08:28,129][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,149][DEBUG] TestElement:35 - [Find element] id: 5018 ,by: By.id: login-button
+[2016-10-24 14:08:28,199][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,218][DEBUG] TestElement:35 - [Find element] id: 5019 ,by: By.id: login-button
+[2016-10-24 14:08:28,268][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,288][DEBUG] TestElement:35 - [Find element] id: 5020 ,by: By.id: login-button
+[2016-10-24 14:08:28,337][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,358][DEBUG] TestElement:35 - [Find element] id: 5021 ,by: By.id: login-button
+[2016-10-24 14:08:28,407][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,428][DEBUG] TestElement:35 - [Find element] id: 5022 ,by: By.id: login-button
+[2016-10-24 14:08:28,473][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,493][DEBUG] TestElement:35 - [Find element] id: 5023 ,by: By.id: login-button
+[2016-10-24 14:08:28,542][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,561][DEBUG] TestElement:35 - [Find element] id: 5024 ,by: By.id: login-button
+[2016-10-24 14:08:28,609][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,628][DEBUG] TestElement:35 - [Find element] id: 5025 ,by: By.id: login-button
+[2016-10-24 14:08:28,677][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,702][DEBUG] TestElement:35 - [Find element] id: 5026 ,by: By.id: login-button
+[2016-10-24 14:08:28,752][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,771][DEBUG] TestElement:35 - [Find element] id: 5027 ,by: By.id: login-button
+[2016-10-24 14:08:28,818][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,837][DEBUG] TestElement:35 - [Find element] id: 5028 ,by: By.id: login-button
+[2016-10-24 14:08:28,882][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,901][DEBUG] TestElement:35 - [Find element] id: 5029 ,by: By.id: login-button
+[2016-10-24 14:08:28,949][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:28,968][DEBUG] TestElement:35 - [Find element] id: 5030 ,by: By.id: login-button
+[2016-10-24 14:08:29,015][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,034][DEBUG] TestElement:35 - [Find element] id: 5031 ,by: By.id: login-button
+[2016-10-24 14:08:29,082][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,101][DEBUG] TestElement:35 - [Find element] id: 5032 ,by: By.id: login-button
+[2016-10-24 14:08:29,150][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,168][DEBUG] TestElement:35 - [Find element] id: 5033 ,by: By.id: login-button
+[2016-10-24 14:08:29,218][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,238][DEBUG] TestElement:35 - [Find element] id: 5034 ,by: By.id: login-button
+[2016-10-24 14:08:29,286][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,308][DEBUG] TestElement:35 - [Find element] id: 5035 ,by: By.id: login-button
+[2016-10-24 14:08:29,358][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,380][DEBUG] TestElement:35 - [Find element] id: 5036 ,by: By.id: login-button
+[2016-10-24 14:08:29,428][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,447][DEBUG] TestElement:35 - [Find element] id: 5037 ,by: By.id: login-button
+[2016-10-24 14:08:29,498][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,519][DEBUG] TestElement:35 - [Find element] id: 5038 ,by: By.id: login-button
+[2016-10-24 14:08:29,567][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,588][DEBUG] TestElement:35 - [Find element] id: 5039 ,by: By.id: login-button
+[2016-10-24 14:08:29,634][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,652][DEBUG] TestElement:35 - [Find element] id: 5040 ,by: By.id: login-button
+[2016-10-24 14:08:29,702][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,723][DEBUG] TestElement:35 - [Find element] id: 5041 ,by: By.id: login-button
+[2016-10-24 14:08:29,772][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,791][DEBUG] TestElement:35 - [Find element] id: 5042 ,by: By.id: login-button
+[2016-10-24 14:08:29,838][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,867][DEBUG] TestElement:35 - [Find element] id: 5043 ,by: By.id: login-button
+[2016-10-24 14:08:29,916][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:29,937][DEBUG] TestElement:35 - [Find element] id: 5044 ,by: By.id: login-button
+[2016-10-24 14:08:29,986][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,006][DEBUG] TestElement:35 - [Find element] id: 5045 ,by: By.id: login-button
+[2016-10-24 14:08:30,052][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,071][DEBUG] TestElement:35 - [Find element] id: 5046 ,by: By.id: login-button
+[2016-10-24 14:08:30,120][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,140][DEBUG] TestElement:35 - [Find element] id: 5047 ,by: By.id: login-button
+[2016-10-24 14:08:30,188][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,209][DEBUG] TestElement:35 - [Find element] id: 5048 ,by: By.id: login-button
+[2016-10-24 14:08:30,258][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,283][DEBUG] TestElement:35 - [Find element] id: 5049 ,by: By.id: login-button
+[2016-10-24 14:08:30,331][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,351][DEBUG] TestElement:35 - [Find element] id: 5050 ,by: By.id: login-button
+[2016-10-24 14:08:30,399][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,418][DEBUG] TestElement:35 - [Find element] id: 5051 ,by: By.id: login-button
+[2016-10-24 14:08:30,464][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,483][DEBUG] TestElement:35 - [Find element] id: 5052 ,by: By.id: login-button
+[2016-10-24 14:08:30,532][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,552][DEBUG] TestElement:35 - [Find element] id: 5053 ,by: By.id: login-button
+[2016-10-24 14:08:30,601][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,620][DEBUG] TestElement:35 - [Find element] id: 5054 ,by: By.id: login-button
+[2016-10-24 14:08:30,669][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,688][DEBUG] TestElement:35 - [Find element] id: 5055 ,by: By.id: login-button
+[2016-10-24 14:08:30,737][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,756][DEBUG] TestElement:35 - [Find element] id: 5056 ,by: By.id: login-button
+[2016-10-24 14:08:30,803][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,824][DEBUG] TestElement:35 - [Find element] id: 5057 ,by: By.id: login-button
+[2016-10-24 14:08:30,874][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,895][DEBUG] TestElement:35 - [Find element] id: 5058 ,by: By.id: login-button
+[2016-10-24 14:08:30,942][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:30,961][DEBUG] TestElement:35 - [Find element] id: 5059 ,by: By.id: login-button
+[2016-10-24 14:08:31,011][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,030][DEBUG] TestElement:35 - [Find element] id: 5060 ,by: By.id: login-button
+[2016-10-24 14:08:31,079][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,102][DEBUG] TestElement:35 - [Find element] id: 5061 ,by: By.id: login-button
+[2016-10-24 14:08:31,150][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,169][DEBUG] TestElement:35 - [Find element] id: 5062 ,by: By.id: login-button
+[2016-10-24 14:08:31,213][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,232][DEBUG] TestElement:35 - [Find element] id: 5063 ,by: By.id: login-button
+[2016-10-24 14:08:31,278][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,297][DEBUG] TestElement:35 - [Find element] id: 5064 ,by: By.id: login-button
+[2016-10-24 14:08:31,342][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,364][DEBUG] TestElement:35 - [Find element] id: 5065 ,by: By.id: login-button
+[2016-10-24 14:08:31,413][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,435][DEBUG] TestElement:35 - [Find element] id: 5066 ,by: By.id: login-button
+[2016-10-24 14:08:31,481][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,500][DEBUG] TestElement:35 - [Find element] id: 5067 ,by: By.id: login-button
+[2016-10-24 14:08:31,548][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,568][DEBUG] TestElement:35 - [Find element] id: 5068 ,by: By.id: login-button
+[2016-10-24 14:08:31,614][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,636][DEBUG] TestElement:35 - [Find element] id: 5069 ,by: By.id: login-button
+[2016-10-24 14:08:31,684][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,706][DEBUG] TestElement:35 - [Find element] id: 5070 ,by: By.id: login-button
+[2016-10-24 14:08:31,752][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,771][DEBUG] TestElement:35 - [Find element] id: 5071 ,by: By.id: login-button
+[2016-10-24 14:08:31,818][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,836][DEBUG] TestElement:35 - [Find element] id: 5072 ,by: By.id: login-button
+[2016-10-24 14:08:31,891][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,910][DEBUG] TestElement:35 - [Find element] id: 5073 ,by: By.id: login-button
+[2016-10-24 14:08:31,958][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:31,978][DEBUG] TestElement:35 - [Find element] id: 5074 ,by: By.id: login-button
+[2016-10-24 14:08:32,029][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,047][DEBUG] TestElement:35 - [Find element] id: 5075 ,by: By.id: login-button
+[2016-10-24 14:08:32,095][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,114][DEBUG] TestElement:35 - [Find element] id: 5076 ,by: By.id: login-button
+[2016-10-24 14:08:32,162][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,180][DEBUG] TestElement:35 - [Find element] id: 5077 ,by: By.id: login-button
+[2016-10-24 14:08:32,231][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,250][DEBUG] TestElement:35 - [Find element] id: 5078 ,by: By.id: login-button
+[2016-10-24 14:08:32,299][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,317][DEBUG] TestElement:35 - [Find element] id: 5079 ,by: By.id: login-button
+[2016-10-24 14:08:32,365][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,384][DEBUG] TestElement:35 - [Find element] id: 5080 ,by: By.id: login-button
+[2016-10-24 14:08:32,432][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,453][DEBUG] TestElement:35 - [Find element] id: 5081 ,by: By.id: login-button
+[2016-10-24 14:08:32,502][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,521][DEBUG] TestElement:35 - [Find element] id: 5082 ,by: By.id: login-button
+[2016-10-24 14:08:32,571][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,592][DEBUG] TestElement:35 - [Find element] id: 5083 ,by: By.id: login-button
+[2016-10-24 14:08:32,641][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,665][DEBUG] TestElement:35 - [Find element] id: 5084 ,by: By.id: login-button
+[2016-10-24 14:08:32,713][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,734][DEBUG] TestElement:35 - [Find element] id: 5085 ,by: By.id: login-button
+[2016-10-24 14:08:32,781][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,800][DEBUG] TestElement:35 - [Find element] id: 5086 ,by: By.id: login-button
+[2016-10-24 14:08:32,850][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,868][DEBUG] TestElement:35 - [Find element] id: 5087 ,by: By.id: login-button
+[2016-10-24 14:08:32,916][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:32,936][DEBUG] TestElement:35 - [Find element] id: 5088 ,by: By.id: login-button
+[2016-10-24 14:08:32,983][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,003][DEBUG] TestElement:35 - [Find element] id: 5089 ,by: By.id: login-button
+[2016-10-24 14:08:33,051][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,072][DEBUG] TestElement:35 - [Find element] id: 5090 ,by: By.id: login-button
+[2016-10-24 14:08:33,121][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,141][DEBUG] TestElement:35 - [Find element] id: 5091 ,by: By.id: login-button
+[2016-10-24 14:08:33,188][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,208][DEBUG] TestElement:35 - [Find element] id: 5092 ,by: By.id: login-button
+[2016-10-24 14:08:33,256][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,275][DEBUG] TestElement:35 - [Find element] id: 5093 ,by: By.id: login-button
+[2016-10-24 14:08:33,323][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,342][DEBUG] TestElement:35 - [Find element] id: 5094 ,by: By.id: login-button
+[2016-10-24 14:08:33,391][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,411][DEBUG] TestElement:35 - [Find element] id: 5095 ,by: By.id: login-button
+[2016-10-24 14:08:33,458][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,477][DEBUG] TestElement:35 - [Find element] id: 5096 ,by: By.id: login-button
+[2016-10-24 14:08:33,523][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,542][DEBUG] TestElement:35 - [Find element] id: 5097 ,by: By.id: login-button
+[2016-10-24 14:08:33,590][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,611][DEBUG] TestElement:35 - [Find element] id: 5098 ,by: By.id: login-button
+[2016-10-24 14:08:33,658][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,681][DEBUG] TestElement:35 - [Find element] id: 5099 ,by: By.id: login-button
+[2016-10-24 14:08:33,730][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,749][DEBUG] TestElement:35 - [Find element] id: 5100 ,by: By.id: login-button
+[2016-10-24 14:08:33,797][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,817][DEBUG] TestElement:35 - [Find element] id: 5101 ,by: By.id: login-button
+[2016-10-24 14:08:33,865][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,886][DEBUG] TestElement:35 - [Find element] id: 5102 ,by: By.id: login-button
+[2016-10-24 14:08:33,934][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:33,954][DEBUG] TestElement:35 - [Find element] id: 5103 ,by: By.id: login-button
+[2016-10-24 14:08:34,001][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,020][DEBUG] TestElement:35 - [Find element] id: 5104 ,by: By.id: login-button
+[2016-10-24 14:08:34,070][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,089][DEBUG] TestElement:35 - [Find element] id: 5105 ,by: By.id: login-button
+[2016-10-24 14:08:34,135][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,154][DEBUG] TestElement:35 - [Find element] id: 5106 ,by: By.id: login-button
+[2016-10-24 14:08:34,201][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,220][DEBUG] TestElement:35 - [Find element] id: 5107 ,by: By.id: login-button
+[2016-10-24 14:08:34,267][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,286][DEBUG] TestElement:35 - [Find element] id: 5108 ,by: By.id: login-button
+[2016-10-24 14:08:34,332][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,351][DEBUG] TestElement:35 - [Find element] id: 5109 ,by: By.id: login-button
+[2016-10-24 14:08:34,398][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,416][DEBUG] TestElement:35 - [Find element] id: 5110 ,by: By.id: login-button
+[2016-10-24 14:08:34,464][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,482][DEBUG] TestElement:35 - [Find element] id: 5111 ,by: By.id: login-button
+[2016-10-24 14:08:34,529][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,548][DEBUG] TestElement:35 - [Find element] id: 5112 ,by: By.id: login-button
+[2016-10-24 14:08:34,595][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,613][DEBUG] TestElement:35 - [Find element] id: 5113 ,by: By.id: login-button
+[2016-10-24 14:08:34,662][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,680][DEBUG] TestElement:35 - [Find element] id: 5114 ,by: By.id: login-button
+[2016-10-24 14:08:34,728][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,746][DEBUG] TestElement:35 - [Find element] id: 5115 ,by: By.id: login-button
+[2016-10-24 14:08:34,794][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,812][DEBUG] TestElement:35 - [Find element] id: 5116 ,by: By.id: login-button
+[2016-10-24 14:08:34,860][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,880][DEBUG] TestElement:35 - [Find element] id: 5117 ,by: By.id: login-button
+[2016-10-24 14:08:34,928][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:34,947][DEBUG] TestElement:35 - [Find element] id: 5118 ,by: By.id: login-button
+[2016-10-24 14:08:34,995][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,018][DEBUG] TestElement:35 - [Find element] id: 5119 ,by: By.id: login-button
+[2016-10-24 14:08:35,063][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,083][DEBUG] TestElement:35 - [Find element] id: 5120 ,by: By.id: login-button
+[2016-10-24 14:08:35,132][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,262][DEBUG] TestElement:35 - [Find element] id: 5121 ,by: By.id: login-button
+[2016-10-24 14:08:35,311][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,332][DEBUG] TestElement:35 - [Find element] id: 5122 ,by: By.id: login-button
+[2016-10-24 14:08:35,381][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,402][DEBUG] TestElement:35 - [Find element] id: 5123 ,by: By.id: login-button
+[2016-10-24 14:08:35,450][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,469][DEBUG] TestElement:35 - [Find element] id: 5124 ,by: By.id: login-button
+[2016-10-24 14:08:35,516][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,536][DEBUG] TestElement:35 - [Find element] id: 5125 ,by: By.id: login-button
+[2016-10-24 14:08:35,583][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,605][DEBUG] TestElement:35 - [Find element] id: 5126 ,by: By.id: login-button
+[2016-10-24 14:08:35,651][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,670][DEBUG] TestElement:35 - [Find element] id: 5127 ,by: By.id: login-button
+[2016-10-24 14:08:35,717][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,736][DEBUG] TestElement:35 - [Find element] id: 5128 ,by: By.id: login-button
+[2016-10-24 14:08:35,783][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,802][DEBUG] TestElement:35 - [Find element] id: 5129 ,by: By.id: login-button
+[2016-10-24 14:08:35,850][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,870][DEBUG] TestElement:35 - [Find element] id: 5130 ,by: By.id: login-button
+[2016-10-24 14:08:35,917][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:35,936][DEBUG] TestElement:35 - [Find element] id: 5131 ,by: By.id: login-button
+[2016-10-24 14:08:35,984][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,004][DEBUG] TestElement:35 - [Find element] id: 5132 ,by: By.id: login-button
+[2016-10-24 14:08:36,051][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,070][DEBUG] TestElement:35 - [Find element] id: 5133 ,by: By.id: login-button
+[2016-10-24 14:08:36,119][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,137][DEBUG] TestElement:35 - [Find element] id: 5134 ,by: By.id: login-button
+[2016-10-24 14:08:36,182][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,203][DEBUG] TestElement:35 - [Find element] id: 5135 ,by: By.id: login-button
+[2016-10-24 14:08:36,251][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,308][DEBUG] TestElement:35 - [Find element] id: 5136 ,by: By.id: login-button
+[2016-10-24 14:08:36,368][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,388][DEBUG] TestElement:35 - [Find element] id: 5137 ,by: By.id: login-button
+[2016-10-24 14:08:36,600][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,618][DEBUG] TestElement:35 - [Find element] id: 5138 ,by: By.id: login-button
+[2016-10-24 14:08:36,668][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,688][DEBUG] TestElement:35 - [Find element] id: 5139 ,by: By.id: login-button
+[2016-10-24 14:08:36,735][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,753][DEBUG] TestElement:35 - [Find element] id: 5140 ,by: By.id: login-button
+[2016-10-24 14:08:36,801][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,822][DEBUG] TestElement:35 - [Find element] id: 5141 ,by: By.id: login-button
+[2016-10-24 14:08:36,868][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,894][DEBUG] TestElement:35 - [Find element] id: 5142 ,by: By.id: login-button
+[2016-10-24 14:08:36,943][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:36,963][DEBUG] TestElement:35 - [Find element] id: 5143 ,by: By.id: login-button
+[2016-10-24 14:08:37,011][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,029][DEBUG] TestElement:35 - [Find element] id: 5144 ,by: By.id: login-button
+[2016-10-24 14:08:37,076][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,095][DEBUG] TestElement:35 - [Find element] id: 5145 ,by: By.id: login-button
+[2016-10-24 14:08:37,144][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,162][DEBUG] TestElement:35 - [Find element] id: 5146 ,by: By.id: login-button
+[2016-10-24 14:08:37,209][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,227][DEBUG] TestElement:35 - [Find element] id: 5147 ,by: By.id: login-button
+[2016-10-24 14:08:37,273][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,291][DEBUG] TestElement:35 - [Find element] id: 5148 ,by: By.id: login-button
+[2016-10-24 14:08:37,338][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,356][DEBUG] TestElement:35 - [Find element] id: 5149 ,by: By.id: login-button
+[2016-10-24 14:08:37,402][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,421][DEBUG] TestElement:35 - [Find element] id: 5150 ,by: By.id: login-button
+[2016-10-24 14:08:37,471][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,489][DEBUG] TestElement:35 - [Find element] id: 5151 ,by: By.id: login-button
+[2016-10-24 14:08:37,538][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,556][DEBUG] TestElement:35 - [Find element] id: 5152 ,by: By.id: login-button
+[2016-10-24 14:08:37,604][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,622][DEBUG] TestElement:35 - [Find element] id: 5153 ,by: By.id: login-button
+[2016-10-24 14:08:37,671][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,693][DEBUG] TestElement:35 - [Find element] id: 5154 ,by: By.id: login-button
+[2016-10-24 14:08:37,741][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,760][DEBUG] TestElement:35 - [Find element] id: 5155 ,by: By.id: login-button
+[2016-10-24 14:08:37,807][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,826][DEBUG] TestElement:35 - [Find element] id: 5156 ,by: By.id: login-button
+[2016-10-24 14:08:37,874][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,893][DEBUG] TestElement:35 - [Find element] id: 5157 ,by: By.id: login-button
+[2016-10-24 14:08:37,941][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:37,960][DEBUG] TestElement:35 - [Find element] id: 5158 ,by: By.id: login-button
+[2016-10-24 14:08:38,004][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,025][DEBUG] TestElement:35 - [Find element] id: 5159 ,by: By.id: login-button
+[2016-10-24 14:08:38,072][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,091][DEBUG] TestElement:35 - [Find element] id: 5160 ,by: By.id: login-button
+[2016-10-24 14:08:38,144][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,189][DEBUG] TestElement:35 - [Find element] id: 5161 ,by: By.id: login-button
+[2016-10-24 14:08:38,241][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,265][DEBUG] TestElement:35 - [Find element] id: 5162 ,by: By.id: login-button
+[2016-10-24 14:08:38,317][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,343][DEBUG] TestElement:35 - [Find element] id: 5163 ,by: By.id: login-button
+[2016-10-24 14:08:38,396][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,417][DEBUG] TestElement:35 - [Find element] id: 5164 ,by: By.id: login-button
+[2016-10-24 14:08:38,469][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,493][DEBUG] TestElement:35 - [Find element] id: 5165 ,by: By.id: login-button
+[2016-10-24 14:08:38,550][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,570][DEBUG] TestElement:35 - [Find element] id: 5166 ,by: By.id: login-button
+[2016-10-24 14:08:38,618][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,642][DEBUG] TestElement:35 - [Find element] id: 5167 ,by: By.id: login-button
+[2016-10-24 14:08:38,689][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,710][DEBUG] TestElement:35 - [Find element] id: 5168 ,by: By.id: login-button
+[2016-10-24 14:08:38,759][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,778][DEBUG] TestElement:35 - [Find element] id: 5169 ,by: By.id: login-button
+[2016-10-24 14:08:38,824][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,843][DEBUG] TestElement:35 - [Find element] id: 5170 ,by: By.id: login-button
+[2016-10-24 14:08:38,891][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,910][DEBUG] TestElement:35 - [Find element] id: 5171 ,by: By.id: login-button
+[2016-10-24 14:08:38,958][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:38,977][DEBUG] TestElement:35 - [Find element] id: 5172 ,by: By.id: login-button
+[2016-10-24 14:08:39,026][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,048][DEBUG] TestElement:35 - [Find element] id: 5173 ,by: By.id: login-button
+[2016-10-24 14:08:39,096][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,114][DEBUG] TestElement:35 - [Find element] id: 5174 ,by: By.id: login-button
+[2016-10-24 14:08:39,161][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,211][DEBUG] TestElement:35 - [Find element] id: 5175 ,by: By.id: login-button
+[2016-10-24 14:08:39,262][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,280][DEBUG] TestElement:35 - [Find element] id: 5176 ,by: By.id: login-button
+[2016-10-24 14:08:39,328][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,351][DEBUG] TestElement:35 - [Find element] id: 5177 ,by: By.id: login-button
+[2016-10-24 14:08:39,400][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,418][DEBUG] TestElement:35 - [Find element] id: 5178 ,by: By.id: login-button
+[2016-10-24 14:08:39,467][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,486][DEBUG] TestElement:35 - [Find element] id: 5179 ,by: By.id: login-button
+[2016-10-24 14:08:39,533][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,552][DEBUG] TestElement:35 - [Find element] id: 5180 ,by: By.id: login-button
+[2016-10-24 14:08:39,600][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,619][DEBUG] TestElement:35 - [Find element] id: 5181 ,by: By.id: login-button
+[2016-10-24 14:08:39,666][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,685][DEBUG] TestElement:35 - [Find element] id: 5182 ,by: By.id: login-button
+[2016-10-24 14:08:39,732][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,750][DEBUG] TestElement:35 - [Find element] id: 5183 ,by: By.id: login-button
+[2016-10-24 14:08:39,798][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,832][DEBUG] TestElement:35 - [Find element] id: 5184 ,by: By.id: login-button
+[2016-10-24 14:08:39,885][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:39,940][DEBUG] TestElement:35 - [Find element] id: 5185 ,by: By.id: login-button
+[2016-10-24 14:08:39,991][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:40,010][DEBUG] TestElement:35 - [Find element] id: 5186 ,by: By.id: login-button
+[2016-10-24 14:08:40,059][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:45,225][DEBUG] WaitUtil:86 - [WaitUtil untilGone] end
+[2016-10-24 14:08:45,225][INFO] Loginer:39 - [Login] PTJY, username: 80316041, password: 123321
+[2016-10-24 14:08:45,225][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:45,245][DEBUG] TestElement:35 - [Find element] id: 5187 ,by: By.xpath: //label[text()='基金定投']
+[2016-10-24 14:08:47,374][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.xpath: //footer/div/img, time: 3
+[2016-10-24 14:08:47,393][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_82
+[2016-10-24 14:08:47,418][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_102
+[2016-10-24 14:08:47,418][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_102
+[2016-10-24 14:08:47,432][DEBUG] TestElement:35 - [Find element] id: 5188 ,by: By.xpath: //footer/div/img
+[2016-10-24 14:08:47,433][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 14:08:47,433][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 14:08:47,454][DEBUG] TestElement:35 - [Find element] id: 5189 ,by: By.xpath: //footer/div/img
+[2016-10-24 14:08:48,007][DEBUG] ExcelReader:49 - open file: file [/Users/csc108/git/light-mobile/ligth-mobile/ios/data/data.xls]
+[2016-10-24 14:08:48,008][DEBUG] ExcelReader:56 - workbook: org.apache.poi.hssf.usermodel.HSSFWorkbook@d176a31
+[2016-10-24 14:08:48,008][DEBUG] ExcelReader:90 - change to sheet: C04基金定投
+[2016-10-24 14:08:48,011][DEBUG] ExcelReader:123 - data: {类型=正例, 操作方式=基金定投, 代码=000001, 名称=华夏成长前收费, 收费方式=前端收费, 金额=1000, 扣款周期=每月, 扣款日=1, 投资描述=幸福养老, 期满条件=日期区间, 巨额标志=, 验证1=基金风险等级与客户等级不匹配，你是否要继续进行交易？, 验证2=操作类别 基金定投申请
+基金代码 000001
+基金名称 华夏成长前收费(前端收费)
+基金账号 80316041
+扣款周期 每月1号
+期满条件 日期区间
+开始日期 {BeginTime}
+终止日期 {EndTime}, 验证3=委托提交成功,流水号：, 备注=} line: 1
+[2016-10-24 14:08:49,017][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: zqdm, time: 10
+[2016-10-24 14:08:49,017][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_102
+[2016-10-24 14:08:49,032][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 14:08:49,032][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 14:08:49,045][DEBUG] TestElement:35 - [Find element] id: 5190 ,by: By.id: zqdm
+[2016-10-24 14:08:49,045][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 14:08:49,045][DEBUG] WaitUtil:43 - [WaitUtil waitFor] begin - By.id: zqdm, time: 10
+[2016-10-24 14:08:49,045][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 14:08:49,067][DEBUG] TestElement:35 - [Find element] id: 5191 ,by: By.id: zqdm
+[2016-10-24 14:08:49,067][DEBUG] WaitUtil:57 - [WaitUtil waitFor] end
+[2016-10-24 14:08:49,067][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 14:08:49,098][DEBUG] TestElement:35 - [Find element] id: 5192 ,by: By.id: zqdm
+[2016-10-24 14:08:49,098][DEBUG] Keyboard:25 - [Keyboard Input] 000001
+[2016-10-24 14:08:50,229][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: WEBVIEW_105
+[2016-10-24 14:08:50,233][DEBUG] CHForIOS:46 - [Switch context] switched to: NATIVE_APP
+[2016-10-24 14:08:51,236][DEBUG] TestElement:35 - [Find element] id: 3 ,by: By.AccessibilityId: 1
+[2016-10-24 14:08:52,386][DEBUG] Keyboard:79 - [Initialize Keyboard] {0=(186, 636), 1=(62, 474), 2=(186, 474), 3=(310, 474), 4=(62, 528), 5=(186, 528), 6=(310, 528), 7=(62, 582), 8=(186, 582), 9=(310, 582)}
+[2016-10-24 14:08:53,308][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 14:08:53,789][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 14:08:54,663][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 14:08:55,447][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 14:08:56,959][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 186, 636
+[2016-10-24 14:08:58,037][DEBUG] Keyboard:87 - [Keyboard Input] tap point: 62, 474
+[2016-10-24 14:08:58,037][DEBUG] WaitUtil:23 - [WaitUtil exists] begin - By.AccessibilityId: 1, time: 1
+[2016-10-24 14:08:58,037][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 14:08:58,996][DEBUG] TestElement:35 - [Find element] id: 4 ,by: By.AccessibilityId: 1
+[2016-10-24 14:08:58,996][DEBUG] WaitUtil:37 - [WaitUtil exists] end - result: true
+[2016-10-24 14:08:58,997][DEBUG] CHForIOS:19 - [Switch context] begin: NATIVE_APP, current context: NATIVE_APP
+[2016-10-24 14:08:59,462][DEBUG] TestElement:35 - [Find element] id: 5 ,by: By.xpath: //UIAButton[@name = 'Q' or @name = '1']/preceding-sibling::UIAButton[1]
+[2016-10-24 14:08:59,937][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: NATIVE_APP
+[2016-10-24 14:08:59,953][DEBUG] CHForIOS:46 - [Switch context] switched to: WEBVIEW_105
+[2016-10-24 14:08:59,954][DEBUG] CHForIOS:49 - [Switch context] url: WEBVIEW_105
+[2016-10-24 14:08:59,968][DEBUG] TestElement:35 - [Find element] id: 5193 ,by: By.xpath: //label[text()='基金名称']/../following-sibling::div[1]/label
+[2016-10-24 14:09:01,183][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 14:09:01,201][DEBUG] TestElement:35 - [Find element] id: 5194 ,by: By.id: price
+[2016-10-24 14:09:09,027][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 14:09:09,081][DEBUG] TestElement:35 - [Find element] id: 5195 ,by: By.id: price
+[2016-10-24 14:09:13,651][DEBUG] CHForIOS:19 - [Switch context] begin: WEBVIEW_LAST, current context: WEBVIEW_105
+[2016-10-24 14:09:13,692][DEBUG] TestElement:35 - [Find element] id: 5196 ,by: By.id: price

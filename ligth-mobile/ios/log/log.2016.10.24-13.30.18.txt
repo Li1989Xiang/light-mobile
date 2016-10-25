@@ -1,0 +1,1 @@
+[2016-10-24 13:30:18,845][INFO] Runner:39 - [Platform] supported platforms: [android, ios]

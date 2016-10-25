@@ -1,0 +1,4 @@
+[2016-10-24 11:09:43,014][INFO] Runner:39 - [Platform] supported platforms: [android, ios]
+[2016-10-24 11:09:45,599][DEBUG] PageBase:18 - [Initialize class] begin: PageFundFixed
+[2016-10-24 11:09:45,614][DEBUG] Repository:27 - repository has not been parsed - PageFundFixed
+[2016-10-24 11:09:47,060][DEBUG] DriverFactory:28 - driver quit

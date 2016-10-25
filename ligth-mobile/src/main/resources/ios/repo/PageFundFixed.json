@@ -1,0 +1,204 @@
+{
+	"oTextDT": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////a[contains(text(),'基金定投')]"
+		]
+	},
+
+	"oTextDS": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////a[contains(text(),'基金定赎')]"
+		]
+	},
+	"oTextSQ": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////footer/div/img"
+		]
+	},
+
+	"oEditCode": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"id://zqdm"
+		]
+	},
+	"oTextName": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='基金名称']/../following-sibling::div[1]/label"
+		]
+	},
+	"oTextPrice": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='基金净值']/../following-sibling::div[1]/label"
+		]
+	},
+	"oEditNumber": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"id://price"
+		]
+	},
+	"oBtnTime": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='扣款周期' or text()='赎回周期']/../following-sibling::div[1]/button"
+		]
+	},
+	"oBtnDescription": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='投资描述']/../following-sibling::div[1]/button"
+		]
+	},
+	"oTextMonth": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////div[@class = 'zqSort']/div[contains(text(),'月')]"
+		]
+	},
+	"oTextWeek": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////div[@class = 'zqSort']/div[contains(text(),'周')]"
+		]
+	},
+	"oMenuMonth": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////div[@class='day']/li"
+		]
+	},
+	"oMenuWeek": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////div[@class='week']/li"
+		]
+	},
+	"oBtnCondition": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='期满条件']/../following-sibling::div[1]/button"
+		]
+	},
+	"oBtnMark": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='巨额标志']/../following-sibling::div[1]/button"
+		]
+	},
+	"oMenuMark": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='巨额标志']/../following-sibling::div[1]/ul[1]/li"
+		]
+	},
+	"oMenuCondition": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='期满条件']/../following-sibling::div[1]/ul[1]/li"
+		]
+	},
+	"oMenuDescription": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////label[text()='投资描述']/../following-sibling::div[1]/ul[1]/li"
+		]
+	},
+	"oEditBeginTime": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"id://ksrq"
+		]
+	},
+	"oEditEndTime": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"id://zzrq"
+		]
+	},
+	"oEditQMCS": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"id://qmcs"
+		]
+	},
+	"oEditQMJE": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"id://qmje"
+		]
+	},
+	"oBtnSG": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////button[text()='申购']"
+		]
+	},
+	"oImgLoad": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"id://loading"
+		]
+	},
+	"oMsgRisk": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"xpath:////td[text()='基金风险等级与客户等级不匹配,你是否要继续进行交易?']"
+		]
+	}
+}
