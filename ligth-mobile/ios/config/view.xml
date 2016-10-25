@@ -19,10 +19,9 @@
 				<view name="基金认购" repo="PageMainJJ.oBtnRG" />
 				<view name="基金申购" repo="PageMainJJ.oBtnSG" />
 				<view name="基金赎回" repo="PageMainJJ.oBtnSH" />
-				<view name="基金定投" repo="" enable="false" />
-				<view name="基金定赎" repo="" enable="false" />
-				<view name="基金转换" repo="" enable="false" />
-				<view name="分红设置" repo="" enable="false" />
+				<view name="基金定投" repo="PageMainJJ.oBtnDT" />
+				<view name="基金转换" repo="PageMainJJ.oBtnZH" />
+				<view name="分红设置" repo="PageMainJJ.oBtnFHSZ" />
 			</view>
 
 			<view name="ETF基金" repo="" enable="false">

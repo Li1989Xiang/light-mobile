@@ -35,6 +35,15 @@
 		]
 	},
 
+	"oBtnZJDD": 
+	{
+		"in": "WEBVIEW_LAST",
+		"bys": 
+		[
+			"id://pic_cash"
+		]
+	},
+
 	"oBtnJJ": 
 	{
 		"in": "WEBVIEW_LAST",
@@ -44,12 +53,12 @@
 		]
 	},
 
-	"oBtnZJDD": 
+	"oBtnLOF": 
 	{
 		"in": "WEBVIEW_LAST",
 		"bys": 
 		[
-			"id://pic_cash"
+			"xpath:////label[text()='LOF基金']"
 		]
 	},
 
